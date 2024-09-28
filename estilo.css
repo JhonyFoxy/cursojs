@@ -1,0 +1,41 @@
+h1, #primeiroCapitulo {
+    background-color: #000000;
+    color: #ff0000;
+}
+h1 {
+    color: rgb(0, 255, 255);
+}
+.paragrafo {
+    padding: 25px;
+}
+a {
+    color: #000000;    
+}
+
+/*
+    a:link - stilo normal
+    a:visited - estilo quando o usuário já visitou o link
+    a:hover - estilo quando o mouse estpa em cima do link
+    a:active - estilo quando o link é clicado
+*/
+
+a:active{
+    color: aqua;
+}
+
+a:hover{
+    background-color: #00ff00;
+}
+
+.pagina {
+    width: 300px;
+    height: 500px;
+    background-color: #dfe3e4;
+    display: inline-block;
+    /*
+        display: block - Exibir um único conteúdo por linha
+        display: inline - Exibir o conteúdo como se fosse uma única linha
+        display: inline-block - Exibir o conteúdo como se fossem blocos em uma única linha
+        display: none - Não exibir conteúdo
+    */
+}
