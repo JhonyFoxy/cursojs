@@ -1,0 +1,96 @@
+table {
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid white;
+}
+
+thead > tr > th {
+    background-color: black;
+    color: white;
+}
+
+table > tbody > tr > td:last-of-type {
+    text-align: center;
+}
+
+table > tbody > tr:hover {
+    background-color: rgb(250, 136, 250);;
+}
+
+table > tbody > tr > td:hover {
+    font-weight: bold;
+}
+
+.botao {
+    padding: 5px 10 px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.botaoSucesso {
+    border-color: #64ff64;
+    background-color: #aaffaa;
+}
+
+.botaoPerigo {
+    border-color: #ff6464;
+    background-color: #ffaaaa;
+}
+
+ul.primeiroMenu {
+    width: 200px;
+    background: #ddd;
+    padding: 0;
+}
+
+ul.primeiroMenu > li {
+    list-style-type: none;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: purple;
+    box-sizing: border-box;
+}
+
+ul.primeiroMenu > li:hover {
+    background: #000;
+    color: white;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+ul.segundoMenu {
+    width: 100%;    
+    padding: 0;
+    background: #343434;
+    color: #fff;
+    text-align: right;
+}
+
+ul.segundoMenu > li {
+    display: inline-block;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 2px solid #343434;
+}
+
+ul.segundoMenu > li:hover {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    border-color: white;
+    border-bottom-color: rgb(75, 192, 238);
+}
